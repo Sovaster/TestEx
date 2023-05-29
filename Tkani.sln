@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tkani", "Tkani\Tkani.csproj", "{44DC4D22-E13B-4814-AA98-EE03759639B5}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Tkani_Setup", "Tkani_Setup\Tkani_Setup.vdproj", "{60CD7084-B7E6-4537-A17B-02B596FBF4BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44DC4D22-E13B-4814-AA98-EE03759639B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DC4D22-E13B-4814-AA98-EE03759639B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DC4D22-E13B-4814-AA98-EE03759639B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DC4D22-E13B-4814-AA98-EE03759639B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60CD7084-B7E6-4537-A17B-02B596FBF4BB}.Debug|Any CPU.ActiveCfg = Debug
+		{60CD7084-B7E6-4537-A17B-02B596FBF4BB}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D534A88D-E304-4E61-9BCC-14A4DAF3B4BD}
+	EndGlobalSection
+EndGlobal
