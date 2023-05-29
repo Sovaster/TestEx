@@ -25,11 +25,11 @@ namespace Tkani.Windows
         ProductTableAdapter productTableAdapter = new ProductTableAdapter();
 
         int Count_Products;
-        public Product_Administartor_Window(/*string fio_user*/)
+        public Product_Administartor_Window(string fio_user)
         {
             InitializeComponent();
 
-            FIO_User.Content = "ГГ ВП ОЛ";
+            FIO_User.Content = fio_user;
 
             productTableAdapter.Fill(fabrics_Data_Set.Product);
             Product_LV.ItemsSource = fabrics_Data_Set.Product.DefaultView;

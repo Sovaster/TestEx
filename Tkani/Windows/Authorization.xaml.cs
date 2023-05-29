@@ -69,7 +69,7 @@ namespace Tkani
                         switch(user_role)
                         {
                             case "Администратор":
-                                Windows.Product_Administartor_Window window_for_admin = new Windows.Product_Administartor_Window(/*user_FIO*/);
+                                Windows.Product_Administartor_Window window_for_admin = new Windows.Product_Administartor_Window(user_FIO);
                                 window_for_admin.Show();
                                 this.Close();
                                 break;

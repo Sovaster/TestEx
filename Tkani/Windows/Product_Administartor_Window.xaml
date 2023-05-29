@@ -20,7 +20,7 @@
             </Grid.RowDefinitions>
 
             <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5">
-                <Label x:Name="FIO_User" HorizontalAlignment="Left" VerticalAlignment="Top" Content="ФИО14124124124124" FontFamily="Comic Sans MS"/>
+                <Label x:Name="FIO_User" HorizontalAlignment="Left" VerticalAlignment="Top" Content="" FontFamily="Comic Sans MS"/>
                 <Button x:Name="Exit_BTN" Content="Выход" Background="#FF498C51" Click="Exit_BTN_Click" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Comic Sans MS" Padding="5"/>
             </StackPanel>
 
@@ -39,7 +39,10 @@
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal" Margin="5" Height="120">
                             <Border BorderThickness="2" BorderBrush="Black" Margin="5">
-                                <Image Source="{Binding Image}" Height="100" Width="150"/>
+                                <Grid>
+                                    <Image Source="/Images/picture.png" Height="100" Width="150"/>
+                                    <Image Source="{Binding Image}" Height="100" Width="150" Stretch="Fill" />
+                                </Grid>
                             </Border>
                             <Border BorderThickness="1" BorderBrush="Black" Margin="5" Padding="5">
                                 <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="590">
